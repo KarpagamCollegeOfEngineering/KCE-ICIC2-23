@@ -732,6 +732,18 @@ h6 {
   margin-bottom: 30px;
 }
 
+#objectives .objective:before {
+  content: "";
+  background: #2d1786;
+  position: absolute;
+  object-fit: cover;
+  opacity: 0.4;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
 #objectives .objective .details {
   background: rgba(6, 12, 34, 0.76);
   position: absolute;
